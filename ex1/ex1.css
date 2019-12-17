@@ -1,0 +1,36 @@
+h1{
+    font-size: 33px;
+    text-align: center;
+}
+
+input{
+    text-align:center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li {
+    list-style: none;
+    height: 134px;
+    line-height: 134px;
+    padding-left: 146px;
+    position: relative;
+    background-color: #dffff9;
+  }
+  
+
+  ul li img {
+    max-width: 120px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+div{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
