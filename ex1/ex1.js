@@ -62,7 +62,7 @@ addInArray = (array) => {
     picture.src = element.image;
     h4.textContent = element.firstName + " " + element.lastName;
     p.textContent = "Name title: " + element.nameTitle;
-    anchorTag.href = "/home/gheorghealexandru/Documents/ex1/redirect.html?id=" + element.id
+    anchorTag.href = "./redirect.html?id=" + element.id
     container.appendChild(anchorTag);
     anchorTag.appendChild(divCard)
     divCard.appendChild(picture);
